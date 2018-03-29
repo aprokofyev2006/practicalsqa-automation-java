@@ -120,7 +120,7 @@ public class Test001_InterviewQuestionsBBTPage2 {
 		((JavascriptExecutor) Driver.getInstance()).executeScript("arguments[0].scrollIntoView(true);", beginningSeleniumClassesPage.bigPlayButton);
 		Page.waitUntilClickable(Driver.getInstance(), beginningSeleniumClassesPage.bigPlayButton);
 		beginningSeleniumClassesPage.bigPlayButton.click();
-		Thread.sleep(10000);
+		Thread.sleep(2000);
 	}
 
 	@Then("^\"([^\"]*)\" video playing$")
