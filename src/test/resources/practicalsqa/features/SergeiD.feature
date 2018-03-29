@@ -45,3 +45,8 @@ Scenario: TC03 Verify the video in "Begginnig Selenium Classes"
 And click on the picture "Beginning Selenium Classes"
 And click on the play button on the Video
 Then "First selenium lesson out of 10" video playing
+
+Scenario: TC04 Verify password is NOT required "Lesson 1" from the page "Begginnig Selenium Classes"
+And click on the picture "Beginning Selenium Classes"
+And click "Lesson 1" link
+Then user able to see material of the Lesson 1, password not required
