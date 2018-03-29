@@ -130,5 +130,16 @@ public class Test001_InterviewQuestionsBBTPage2 {
 		Driver.getInstance().switchTo().defaultContent();
 	}
 
+	//-------------------------TC04
+	
+	@Given("^click \"([^\"]*)\" link$")
+	public void click_link(String arg1) throws Throwable {
+	    
+	}
+
+	@Then("^user able to see material of the Lesson (\\d+), password not required$")
+	public void user_able_to_see_material_of_the_Lesson_password_not_required(int arg1) throws Throwable {
+	    
+	}
 
 }
