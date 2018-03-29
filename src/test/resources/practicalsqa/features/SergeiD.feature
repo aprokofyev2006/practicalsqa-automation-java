@@ -40,12 +40,12 @@ Scenario: TC2 Verify links for Lessons are presents in Begginnig Selenium Classe
 |Lesson 10 - Loops|
 |Lesson 11 - Different browsers, tagging, debugging|
 
-@run
+
 Scenario: TC03 Verify the video in "Begginnig Selenium Classes"
 And click on the picture "Beginning Selenium Classes"
 And click on the play button on the Video
 Then "First selenium lesson out of 10" video playing
-
+@run
 Scenario: TC04 Verify password is NOT required "Lesson 1" from the page "Begginnig Selenium Classes"
 And click on the picture "Beginning Selenium Classes"
 And click "Lesson 1" link

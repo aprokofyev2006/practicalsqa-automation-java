@@ -134,7 +134,9 @@ public class Test001_InterviewQuestionsBBTPage2 {
 	
 	@Given("^click \"([^\"]*)\" link$")
 	public void click_link(String arg1) throws Throwable {
-	    
+		beginningSeleniumClassesPage = new BeginningSeleniumClassesPage();
+	    beginningSeleniumClassesPage.lessonOneLink.click();
+	    Thread.sleep(2000);
 	}
 
 	@Then("^user able to see material of the Lesson (\\d+), password not required$")

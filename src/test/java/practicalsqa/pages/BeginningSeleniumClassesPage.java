@@ -2,6 +2,7 @@ package practicalsqa.pages;
 
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -18,6 +19,9 @@ public class BeginningSeleniumClassesPage extends BasePage {
 	
 	@FindBy(xpath="//ul[@class='fancylist fancylist-check-circle fancylist-1b93c7']/li")
 	public List <WebElement> listOfLessonLinks;
+
+	@FindBy(linkText="Lesson 1 – Introduction to Selenium/Cucumber/Ruby")
+	public WebElement lessonOneLink;
 	
 	@FindBy(tagName="iframe")
 	public WebElement iframe;
