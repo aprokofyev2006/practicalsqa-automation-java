@@ -16,6 +16,7 @@ import practicalsqa.pages.BasePage;
 import practicalsqa.pages.BeginningSeleniumClassesPage;
 import practicalsqa.pages.BlackBoxQuestions2Page;
 import practicalsqa.pages.ClassesPage;
+import practicalsqa.pages.IntroToSeleniumLesson1Page;
 import practicalsqa.pages.PracticalsqaHomePage;
 import practicalsqa.utilities.Config;
 import practicalsqa.utilities.Driver;
@@ -27,6 +28,7 @@ public class Test001_InterviewQuestionsBBTPage2 {
 	BeginningSeleniumClassesPage beginningSeleniumClassesPage;
 	ClassesPage classesPage;
 	BasePage basePage = new BasePage();
+	IntroToSeleniumLesson1Page introToSeleniumLesson1Page;
 	
 	@Given("^user is on the practicalsqa\\.net homepage$")
 	public void user_is_on_the_practicalsqa_net_homepage() throws Throwable {
@@ -141,7 +143,8 @@ public class Test001_InterviewQuestionsBBTPage2 {
 
 	@Then("^user able to see material of the Lesson (\\d+), password not required$")
 	public void user_able_to_see_material_of_the_Lesson_password_not_required(int arg1) throws Throwable {
-	    
+		introToSeleniumLesson1Page = new IntroToSeleniumLesson1Page();
+		assertTrue(introToSeleniumLesson1Page.head.isDisplayed());
 	}
 
 }

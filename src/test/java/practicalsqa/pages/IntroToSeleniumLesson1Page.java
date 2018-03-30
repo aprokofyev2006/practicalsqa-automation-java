@@ -6,11 +6,11 @@ import org.openqa.selenium.support.PageFactory;
 
 import practicalsqa.utilities.Driver;
 
-public class ClassesPage extends BasePage {
-	public ClassesPage(){
+public class IntroToSeleniumLesson1Page extends BasePage {
+	public IntroToSeleniumLesson1Page(){
 		PageFactory.initElements(Driver.getInstance(), this);
 	}
 	
-	@FindBy(xpath="//div[@class='entry-content']/dl[1]/dd[1]/a[1]")
-	public WebElement moreInfoSeleniumForBeginnersLink;
+	@FindBy(xpath="//h1[@class='entry-title']")
+	public WebElement head;
 }
