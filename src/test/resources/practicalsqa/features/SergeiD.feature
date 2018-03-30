@@ -51,3 +51,4 @@ Scenario: TC04 Verify password is NOT required "Lesson 1" from the page "Begginn
 And click on the picture "Beginning Selenium Classes"
 And click "Lesson 1" link
 Then user able to see material of the Lesson 1, password not required
+
