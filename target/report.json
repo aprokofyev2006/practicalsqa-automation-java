@@ -1,0 +1,135 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5464468245,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the practicalsqa.net homepage",
+            "match": {
+              "location": "Test001_InterviewQuestionsBBTPage2.user_is_on_the_practicalsqa_net_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4225023175,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "TC04 Verify password is NOT required \"Lesson 1\" from the page \"Begginnig Selenium Classes\"",
+        "description": "",
+        "id": "sergeid-test-cases;tc04-verify-password-is-not-required-\"lesson-1\"-from-the-page-\"begginnig-selenium-classes\"",
+        "after": [
+          {
+            "result": {
+              "duration": 750348616,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.threadDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2486440489,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "click on the picture \"Beginning Selenium Classes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beginning Selenium Classes",
+                  "offset": 22
+                }
+              ],
+              "location": "Test001_InterviewQuestionsBBTPage2.click_on_the_picture(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6424086193,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "click \"Lesson 1\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lesson 1",
+                  "offset": 7
+                }
+              ],
+              "location": "Test001_InterviewQuestionsBBTPage2.click_link(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51088022,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user able to see material of the Lesson 1, password not required",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 40
+                }
+              ],
+              "location": "Test001_InterviewQuestionsBBTPage2.user_able_to_see_material_of_the_Lesson_password_not_required(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 49,
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "name": "SergeiD test cases",
+    "description": "",
+    "id": "sergeid-test-cases",
+    "keyword": "Feature",
+    "uri": "SergeiD.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SergeiD"
+      },
+      {
+        "line": 2,
+        "name": "@regression"
+      }
+    ]
+  }
+]
