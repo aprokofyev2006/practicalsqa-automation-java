@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		features="src/test/resources/practicalsqa/features",
 		glue="practicalsqa/step_definitions",
 		dryRun=false
-		,tags="@run"
+		,tags="@SergeiD"
 		)
 
 public class practicalsqaRunner {
