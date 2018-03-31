@@ -9,8 +9,8 @@ Scenario: TC1 Verify links for Lessons are presents in Begginnig Selenium Classe
  And click on the picture "Beginning Selenium Classes"
  And redirected to "http://www.practicalsqa.net/beginning-selenium-classes/" password is not required
  Then user is able to see list of eleven links for Lessons:
-|Lesson 1 - Introduction to Selenium/Cucumber/Rub|
-|Lesson 1 - part 22|
+|Lesson 1 - Introduction to Selenium/Cucumber/Ruby|
+|Lesson 1 - part 2|
 |Lesson 2 - Set up framework (webdriver, Ruby API, Cucumber, RubyMine)+ first test case - link to material|
 |Lesson 3 - Different types of xpaths (Absolute and relative)Special characters|
 |Lesson 4 - Variables|
